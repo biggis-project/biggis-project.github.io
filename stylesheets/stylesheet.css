@@ -315,6 +315,20 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#mainmenu {
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  bottom: -40px;
+  right: 0;
+  height: 70px;
+}
+
+#mainmenu a {
+  font-weight: bold;
+}
+
 #downloads {
   position: absolute;
   width: 210px;

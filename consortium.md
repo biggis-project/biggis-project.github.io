@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
+title: Consortium
 ---
 
-<iframe src="https://mapsengine.google.com/map/embed?mid=zNrxsK3eBR1s.k_dhU1OY6Dek" width="640" height="480"></iframe>
+<iframe src="https://mapsengine.google.com/map/embed?mid=zNrxsK3eBR1s.k_dhU1OY6Dek" width="640" height="480" style="background-color:#ddd; border:solid 1px gray"></iframe>
 
 ### Project Consortium
 
