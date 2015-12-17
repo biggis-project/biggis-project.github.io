@@ -3,6 +3,7 @@ layout: default
 title: About
 ---
 
+
 ### About BigGIS
 
 Mit BigGIS soll eine neue Generation von GIS entwickelt und erforscht werden,
@@ -16,11 +17,15 @@ unterstützt. In den drei Anwendungsfällen „Katastrophenschutz“, „Umwelt�
 „Smart City und Gesundheit“ werden prototypische Problemstellungen adressiert
 und Lösungen erarbeitet sowie empirisch validiert und weiterentwickelt.
 
+![BigGis Logo](images/biggis-gfx.png)
+
 Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
+
  - Heterogene geo-temporale Daten
  - Integrierte Betrachtung von Zeit und Raum in der Analyse
  - Unstrukturierte und unzuverlässige Datenmengen
  - Durchgehende Prozessierungspipeline für prädiktive, präskriptive und visuelle Analyse
+
 
 ### Szenarien
 
