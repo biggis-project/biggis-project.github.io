@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+<iframe src="https://mapsengine.google.com/map/embed?mid=zNrxsK3eBR1s.k_dhU1OY6Dek" width="640" height="480"></iframe>
+
 ### Project Consortium
 
  - [FZI Forschungszentrum Informatik am KIT][FZI]
