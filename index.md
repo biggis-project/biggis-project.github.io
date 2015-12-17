@@ -33,17 +33,3 @@ Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
  - Umweltmanagement (Gesundheitsgefährdende Tiere / Pflanzen)
  - Katastrophenschutz (Luft / Giftgas)
 
-### Projektpartner
-
- - Forschungszentrum Informatik FZI
- - Universität Konstanz
- - Hochschule Karlsruhe
- - Disy Informationssysteme GmbH
- - EXASOL AG
- - EFTAS Fernerkundung Technologietransfer GmbH
- - Landesanstalt für Umwelt Messungen und Naturschutz
-
-### Assoziierte Partner
-
- - THW Karlsruhe
- - Stadt Karlsruhe

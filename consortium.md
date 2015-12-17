@@ -23,3 +23,10 @@ title: Consortium
 [LUBW]: https://www.lubw.baden-wuerttemberg.de
 [DISY]: http://www.disy.net
 
+### Associated Partners
+
+ - [THW Karlsruhe][THW]
+ - [Stadt Karlsruhe][KA]
+
+[THW]: http://www.thw-karlsruhe.de/
+[KA]: http://www.karlsruhe.de
