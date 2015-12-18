@@ -3,6 +3,11 @@ layout: default
 title: Documentation
 ---
 
+### List of components
+
+* http://github.com/vsimko/biggis-web
+* http://github.com/EXASOL/r-exasol
+
 ### Presentations
 
 Date          | Author            | Title / Link to PDF
