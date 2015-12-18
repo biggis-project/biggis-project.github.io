@@ -18,7 +18,7 @@ Use Jekyll locally and then push to github:
     The HTTP server start at http://0.0.0.0:4000 by default
  4. Make your changes and preview them instantly in your browser
  5. When finished, commit and push the changes to github
-
+ 6. After approx. 5 seconds visit http://biggis-project.eu
 
  
 
