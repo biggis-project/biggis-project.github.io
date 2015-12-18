@@ -5,8 +5,8 @@ title: Documentation
 
 ### List of components
 
-* http://github.com/vsimko/biggis-web
-* http://github.com/EXASOL/r-exasol
+* [vsimko/biggis-web](http://github.com/vsimko/biggis-web)
+* [EXASOL/r-exasol](http://github.com/EXASOL/r-exasol)
 
 ### Presentations
 
