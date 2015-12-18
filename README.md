@@ -17,8 +17,8 @@ Use Jekyll locally and then push to github:
  1. Install `Jekyll` locally
  2. clone the git repository
  3. Start Jekyll HTTP server inside the cloned directory.
-    The HTTP server start at http://0.0.0.0:4000 by default
- 4. Make your changes and preview them instantly in your browser
+    The HTTP server starts at http://0.0.0.0:4000 by default
+ 4. Preview your changes instantly in browser
  5. When finished, commit and push the changes to github
  6. After approx. 5 seconds visit http://biggis-project.eu
 
