@@ -1,11 +1,13 @@
-# How to update the website
+This is the official website of BigGIS project hosted through "github pages"
 
-## Small changes
+## How to update the website
+
+### Small changes
 
 Small changes can be made directly from github web-interface by editing individual markdown files.
 When saved, the website is automatically updated and you can after ~5 seconds see the result at http://biggis-project.eu
 
-## Large changes
+### Large changes
 
 The following steps are applicable:
  - if you need to substantially update the website, e.g. by changing the layout,
