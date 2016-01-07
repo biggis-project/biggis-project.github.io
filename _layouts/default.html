@@ -11,15 +11,19 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
+          <div id="lang_select"><a href="/">en</a>|<a href="/index_de.html">de</a></div>
+
           <a id="forkme_banner" href="https://github.com/vsimko/biggis-web">View on GitHub</a>
 
           <h1 id="project_title">BigGIS Project</h1>
-          <h2 id="project_tagline">Prädiktive und präskriptive Geoinformationssysteme basierend auf hochdimensionalen geotemporalen Datenstrukturen</h2>
+          <h2 id="project_tagline">{% if page.lang == "de" %} {{ page.subtitle_de }} {% else %} {{ page.subtitle }} {% endif %}</h2>
 
           <section id="mainmenu">
-             <a href="index.html">About</a> | 
-             <a href="consortium.html">Consortium</a> |
-             <a href="docs.html">Documentation</a>
+          {% assign mainmenu = site.pages | where: "mainmenu", true | where: "lang", page.lang | sort: "title" %}
+          {% for p in mainmenu %}
+            <a href="{{ p.url }}">{{ p.title }}</a>
+            {% unless forloop.last %} | {% endunless %}
+          {% endfor %}
           </section>
         </header>
     </div>
