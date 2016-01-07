@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Documentation
+mainmenu: yes
 ---
 
 ### List of components

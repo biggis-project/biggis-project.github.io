@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+mainmenu: yes
 ---
 
 
@@ -19,17 +20,17 @@ und Lösungen erarbeitet sowie empirisch validiert und weiterentwickelt.
 
 ![BigGis Logo](images/biggis-gfx.png)
 
-Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
+Development, evaluation and demonstration of a new generation of GIS:
 
- - Heterogene geo-temporale Daten
- - Integrierte Betrachtung von Zeit und Raum in der Analyse
- - Unstrukturierte und unzuverlässige Datenmengen
- - Durchgehende Prozessierungspipeline für prädiktive, präskriptive und visuelle Analyse
+ - Heterogeneous geo-temporal data
+ - Integrated analysis of spation-temporal data
+ - Unstructured and unreliable datasets
+ - Analytical pipeline for predictive, prescriptive and visual analysis
 
 
-### Szenarien
+### Scenarios
 
- - Smart City und Gesundheit (Urban Heat Islands, Feinstaub)
- - Umweltmanagement (Gesundheitsgefährdende Tiere / Pflanzen)
- - Katastrophenschutz (Luft / Giftgas)
+ - Smart city and health (urban heat islands, particulate matter)
+ - Environmental management (health threatening animals and plants)
+ - Disaster control, civil protection (air pollution, toxic chemicals)
 
