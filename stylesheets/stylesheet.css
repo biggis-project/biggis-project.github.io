@@ -289,6 +289,7 @@ Full-Width Styles
 #lang_select {
   display: block;
   position: absolute;
+  right: 10px;
   top:0;
   z-index: 10;
   padding-top: 10px;
