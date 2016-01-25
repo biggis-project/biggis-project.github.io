@@ -3,5 +3,5 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      subtitle: "Predicive and prescriptive GIS based on high-dimensional geo-temporal data structures"
+      subtitle: "Predictive and prescriptive GIS based on high-dimensional geo-temporal data structures"
       subtitle_de: "Prädiktive und präskriptive Geoinformationssysteme basierend auf hochdimensionalen geotemporalen Datenstrukturen"
