@@ -14,14 +14,15 @@ lang: de
 
 ### Außendarstellung
 
-Datum         | Author            | Titel / Link zum PDF
---------------|-------------------|---------------------------------------------------------------
-Nov&nbsp;2015 | B.&nbsp;Bernsdorf | [BigGIS - Wie Copernicus und Flugroboter den Feuerwehreinsatz verändern][1]
-Nov 2015      | M. Frank          | [Dynamic integration of geo temporal data due to semantically described heterogeneous sources within the BigGIS project][6]
-Sep 2015      | A. Abecker        | [Smart Geodata - Applications and Challenges][2]
-Sep 2015      | W. Kazakos        | [Spatial Big Data - Herausforderungen und Chancen][3]
-Jul 2015      | V. Simko          | [BigGIS Project - ICMSEM'15 Keynote][5]
-May 2015      | W. Kazakos        | [Big Data - Chancen und Herausforderungen für die Umweltinformatik][4]
+Datum | Author            | Titel / Link zum PDF
+------|-------------------|---------------------------------------------------------------
+Feb'16| B.&nbsp;Bernsdorf | [Big Data and Data Mining in Fire Services - a first perspective][7]
+Nov'15| B.&nbsp;Bernsdorf | [BigGIS - Wie Copernicus und Flugroboter den Feuerwehreinsatz verändern][1]
+Nov'15| M. Frank          | [Dynamic integration of geo temporal data due to semantically described heterogeneous sources within the BigGIS project][6]
+Sep'15| A. Abecker        | [Smart Geodata - Applications and Challenges][2]
+Sep'15| W. Kazakos        | [Spatial Big Data - Herausforderungen und Chancen][3]
+Jul'15| V. Simko          | [BigGIS Project - ICMSEM'15 Keynote][5]
+May'15| W. Kazakos        | [Big Data - Chancen und Herausforderungen für die Umweltinformatik][4]
 
 
 [1]: https://amazonas.fzi.de/smw/BigGis/images/4/4e/20151105_BigGIS_und_Copernicus_f%C3%BCr_MRM.pdf
@@ -30,6 +31,7 @@ May 2015      | W. Kazakos        | [Big Data - Chancen und Herausforderungen f�
 [4]: https://amazonas.fzi.de/smw/BigGis/images/8/89/Wk-akuis-2016-big-data.pdf
 [5]: https://amazonas.fzi.de/smw/BigGis/images/0/04/ICMSEM15_BigGIS_2015-07-22.pdf
 [6]: https://amazonas.fzi.de/smw/BigGis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf
+[7]: https://amazonas.fzi.de/smw/BigGis/images/5/5f/20160202_BigGIS_for_Fire_Services.pdf
 
 ###  Pressemeldungen
 
