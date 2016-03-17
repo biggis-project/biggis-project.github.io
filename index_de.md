@@ -20,7 +20,8 @@ und Lösungen erarbeitet sowie empirisch validiert und weiterentwickelt.
 
 ![BigGis Logo](images/biggis-gfx.png)
 
-## Projektziele
+### Projektziele
+
 Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
 
  - Heterogene geo-temporale Daten
