@@ -5,7 +5,6 @@ lang: de
 mainmenu: yes
 ---
 
-
 ### BigGIS Projekt
 
 Mit BigGIS soll eine neue Generation von GIS entwickelt und erforscht werden,
@@ -21,6 +20,7 @@ und Lösungen erarbeitet sowie empirisch validiert und weiterentwickelt.
 
 ![BigGis Logo](images/biggis-gfx.png)
 
+## Projektziele
 Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
 
  - Heterogene geo-temporale Daten
@@ -28,10 +28,8 @@ Erforschung, Evaluation und Demonstration einer neuen Generation von GIS:
  - Unstrukturierte und unzuverlässige Datenmengen
  - Durchgehende Prozessierungspipeline für prädiktive, präskriptive und visuelle Analyse
 
-
 ### Szenarien
 
  - Smart City und Gesundheit (Urban Heat Islands, Feinstaub)
  - Umweltmanagement (Gesundheitsgefährdende Tiere / Pflanzen)
  - Katastrophenschutz (Luft / Giftgas)
-
