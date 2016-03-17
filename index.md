@@ -19,13 +19,14 @@ The prototype will be evaluated on three scenarios - "Smart city", "Environmenta
 
 ![BigGis Logo](images/biggis-gfx.png)
 
+### Project goals
+
 Development, evaluation and demonstration of a new generation of GIS:
 
  - Heterogeneous geo-temporal data
  - Integrated analysis of spation-temporal data
  - Unstructured and unreliable datasets
  - Analytical pipeline for predictive, prescriptive and visual analysis
-
 
 ### Scenarios
 
