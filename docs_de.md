@@ -5,12 +5,8 @@ mainmenu: yes
 lang: de
 ---
 
-### Komponente
-
-* [vsimko/biggis-web](http://github.com/vsimko/biggis-web)
-* [EXASOL/r-exasol](http://github.com/EXASOL/r-exasol)
-* [vsimko/weather-station](https://github.com/vsimko/weather-station)
-* [vsimko/nRF24L01p_SoftSPI](https://github.com/vsimko/nRF24L01p_SoftSPI)
+### Komponenten
+* [Alle Komponenten stehen als Git-Repositories zur Verfügung](https://github.com/biggis-project)
 
 ### Außendarstellung
 
