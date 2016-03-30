@@ -28,6 +28,7 @@ May'15| W. Kazakos        | [Big Data - Chancen und Herausforderungen für die U
 [6]: https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf
 [7]: https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5f/20160202_BigGIS_for_Fire_Services.pdf
 
+
 ### Press releases
 
  - [BigGIS in FZI Newsletter 2015/06]             [PL1]
@@ -37,7 +38,7 @@ May'15| W. Kazakos        | [Big Data - Chancen und Herausforderungen für die U
    „GIS Business“]                                [PL4]
  - [BigGIS-Pressemeldung beim GIS-Point]          [PL5] and [here][PL6]
 
-[PL1]: https://amazonas.fzi.de/smw/sites/fzi.de.biggis/index.php/BigGIS_in_FZI_Newsletter_2015/06
+[PL1]: https://amazonas.fzi.de/biggis/index.php/BigGIS_in_FZI_Newsletter_2015/06
 [PL2]: http://www.disy.net/aktuelles/newsletter/newsletterartikel/artikel/2955.html
 [PL3]: http://www.disy.net/aktuelles/presse/presseartikel/artikel/2963.html
 [PL4]: http://www.disy.net/fileadmin/common/dokumente/aktuell/presse/pressespiegel/2015_Ausgabe_3_2015_gis.Business_Beitrag_Spatial_Big_Data_gis.Business_Disy.pdf
