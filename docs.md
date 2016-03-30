@@ -5,11 +5,7 @@ mainmenu: yes
 ---
 
 ### List of components
-
-* [vsimko/biggis-web](http://github.com/vsimko/biggis-web)
-* [EXASOL/r-exasol](http://github.com/EXASOL/r-exasol)
-* [vsimko/weather-station](https://github.com/vsimko/weather-station)
-* [vsimko/nRF24L01p_SoftSPI](https://github.com/vsimko/nRF24L01p_SoftSPI)
+* [All components are git repositories hosted on Github](https://github.com/biggis-project)
 
 ### Presentations
 
