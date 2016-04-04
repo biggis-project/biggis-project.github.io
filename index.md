@@ -24,7 +24,7 @@ The prototype will be evaluated on three scenarios - "Smart city", "Environmenta
 Development, evaluation and demonstration of a new generation of GIS:
 
  - Heterogeneous geo-temporal data
- - Integrated analysis of spation-temporal data
+ - Integrated analysis of spatio-temporal data
  - Unstructured and unreliable datasets
  - Analytical pipeline for predictive, prescriptive and visual analysis
 
