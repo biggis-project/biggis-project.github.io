@@ -1,17 +1,19 @@
-<html>
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-<style>
-#mapid { height: 100% }
-body { margin: 0px }
-</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<link>
+    <title>BigGIS Project Consortium</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"></link>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <style>
+        #mapid { height: 100% }
+        body { margin: 0px }
+    </style>
 </head>
 
 <body>
 <div id="mapid"></div>
-<script>
-  
+<script language="javascript">
   // more tiles available at: https://leaflet-extras.github.io/leaflet-providers/preview/
   var mymap = L.map('mapid').setView([50.8271205,9.5069632], 6);
   L.tileLayer('http://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
@@ -26,5 +28,7 @@ body { margin: 0px }
   L.marker([48.983790, 8.370873]).addTo(mymap).bindPopup("<a href='http://www.lubw.baden-wuerttemberg.de' target='_top'>LUBW Landesanstalt für Umwelt, Messungen und Naturschutz Baden-Württemberg</a>");
   L.marker([51.961827, 7.644289]).addTo(mymap).bindPopup("<a href='http://www.eftas.com' target='_top'>EFTAS Fernerkundung Technologietransfer GmbH</a>");
   L.marker([47.689048, 9.188607]).addTo(mymap).bindPopup("<a href='http://www.uni-konstanz.de' target='_top'>University of Konstanz</a>");
-</script></body>
+
+</script>
+</body>
 </html>
