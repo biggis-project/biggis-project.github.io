@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Consortium
+lang: en
 mainmenu: yes
 ---
 

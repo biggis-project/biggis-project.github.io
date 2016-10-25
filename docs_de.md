@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Dokumentation
-mainmenu: yes
 lang: de
+mainmenu: yes
 ---
 
 ### Komponenten

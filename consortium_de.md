@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Projektpartner
-mainmenu: yes
 lang: de
+mainmenu: yes
 ---
 
 <iframe src="./con-leaflet.html" width="640" height="480" style="background-color:#ddd; border:solid 1px gray"></iframe>
