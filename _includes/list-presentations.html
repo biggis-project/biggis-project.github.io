@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% include table-tpl.html %}
+<script>
+    (function() {
+        function sort_by_date_fun(a, b) {
+            // newest items first
+            return new Date(b.date).getTime() - new Date(a.date).getTime()
+        }
+        var target = $(document.currentScript).wrapAll('<div>').parent()
+        $.getJSON("data/presentations.json", function(json) {
+            var sorted = json.sort(sort_by_date_fun)
+            var template = Handlebars.compile($("#table-tpl").html())
+            target.html(template(sorted))
+        })
+    })()
+</script>

@@ -1,4 +1,4 @@
-{% include table-tpl.html %}
+{% include press-tpl.html %}
 <script>
     (function() {
         function sort_by_date_fun(a, b) {
@@ -6,9 +6,9 @@
             return new Date(b.date).getTime() - new Date(a.date).getTime()
         }
         var target = $(document.currentScript).wrapAll('<div>').parent()
-        $.getJSON("data/papers.json", function(json) {
+        $.getJSON("data/press.json", function(json) {
             var sorted = json.sort(sort_by_date_fun)
-            var template = Handlebars.compile($("#table-tpl").html())
+            var template = Handlebars.compile($("#press-tpl").html())
             target.html(template(sorted))
         })
     })()
