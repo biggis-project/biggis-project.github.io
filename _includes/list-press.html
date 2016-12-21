@@ -1,15 +1,11 @@
 {% include press-tpl.html %}
 <script>
-    (function() {
-        function sort_by_date_fun(a, b) {
-            // newest items first
-            return new Date(b.date).getTime() - new Date(a.date).getTime()
-        }
-        var target = $(document.currentScript).wrapAll('<div>').parent()
-        $.getJSON("data/press.json", function(json) {
-            var sorted = json.sort(sort_by_date_fun)
-            var template = Handlebars.compile($("#press-tpl").html())
-            target.html(template(sorted))
-        })
-    })()
+  (function() {
+    var target = $(document.currentScript).wrapAll('<div>').parent()
+    $.getJSON("data/press.json", function(json) {
+      var sorted = json.sort(sortByDate)
+      var template = Handlebars.compile($("#press-tpl").html())
+      target.html(template(sorted))
+    })
+  })()
 </script>
