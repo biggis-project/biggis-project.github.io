@@ -12,6 +12,8 @@
       <td>
         {{#each authors}}
           <span class="text-nowrap">{{.}}{{#unless @last}},{{/unless}}</span>
+        {{else}}
+          <span class="text-nowrap">{{authors}}</span>
         {{/each}}
       </td>
       <td>
