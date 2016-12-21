@@ -14,13 +14,10 @@ The following steps are applicable:
  - if you want to edit the text and preview the generated website before publishing
 
 Use Jekyll locally and then push to github:
- 1. Install `Jekyll` locally
+ 1. Install `Jekyll` locally (e.g. `$ sudo apt install jekyll`)
  2. clone the git repository
  3. Start Jekyll HTTP server inside the cloned directory: `$ jekyll serve`
     - The HTTP server starts at http://0.0.0.0:4000 by default
  4. Preview your changes instantly in browser
  5. When finished, commit and push the changes to github
  6. After approx. 5 seconds visit http://biggis-project.eu
-
- 
-
