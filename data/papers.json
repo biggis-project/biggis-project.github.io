@@ -1,7 +1,16 @@
 [
   {
     "date": "2016/11",
-    "authors": ["P. Wiener", "M. Stein", "D. Seebacher", "J. Bruns", "M. Frank", "V. Simko", "S. Zander", "J. Nimis"],
+    "authors": [
+      "P. Wiener",
+      "M. Stein",
+      "D. Seebacher",
+      "J. Bruns",
+      "M. Frank",
+      "V. Simko",
+      "S. Zander",
+      "J. Nimis"
+    ],
     "title": "BigGIS: A Continuous Refinement Approach to Master Heterogeneity and Uncertainty in Spatio-Temporal Big Data (Vision Paper)",
     "event": {
       "title": "ACM SIGSPATIAL 2016 – International Conference on Advances in Geographic Information Systems",

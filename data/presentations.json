@@ -1,7 +1,11 @@
 [
   {
     "date": "2016/09",
-    "authors": ["J. Bruns", "B. Amberg", "T. Setzer"],
+    "authors": [
+      "J. Bruns",
+      "B. Amberg",
+      "T. Setzer"
+    ],
     "title": "Forecasting local temperatures in urban context",
     "event": {
       "title": "OR2016 – Annual International Conference of the German Operations Research Society",
@@ -21,7 +25,14 @@
   },
   {
     "date": "2016/06",
-    "authors": ["A. Abecker", "T. Brauer", "J. Kutterer", "K. Schnitter", "J. Nimis", "P. Wiener"],
+    "authors": [
+      "A. Abecker",
+      "T. Brauer",
+      "J. Kutterer",
+      "K. Schnitter",
+      "J. Nimis",
+      "P. Wiener"
+    ],
     "title": "Überlegungen zu einer Spatial Big Data Architektur im BigGIS Projekt",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/2/29/AK_UIS-2016_Andreas_Abecker_BigGIS_handout.pdf",
     "event": {
@@ -46,19 +57,31 @@
   },
   {
     "date": "2016/05",
-    "authors": ["M. Frank", "S. Zander"],
+    "authors": [
+      "M. Frank",
+      "S. Zander"
+    ],
     "title": "Smart Web Services for Big Spatio-Temporal Data in Geographical Information Systems",
     "link": "http://salad2016.linked.services/menu/index.html"
   },
   {
     "date": "2016/05",
-    "authors": ["A. Abecker", "T. Brauer", "J. Kutterer", "J. Nimis", "P. Wiener"],
+    "authors": [
+      "A. Abecker",
+      "T. Brauer",
+      "J. Kutterer",
+      "J. Nimis",
+      "P. Wiener"
+    ],
     "title": "Toward An Architecture for Processing Spatial Big Data",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5e/GWF-2016_Andreas_Abecker_v2.pdf"
   },
   {
     "date": "2016/05",
-    "authors": ["B. Bernsdorf", "J. Bruns"],
+    "authors": [
+      "B. Bernsdorf",
+      "J. Bruns"
+    ],
     "title": "Big-Data und Data-Mining im Umfeld städtischer Nutzungskartierung",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf"
   },
