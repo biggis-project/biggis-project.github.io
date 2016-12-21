@@ -9,7 +9,11 @@
         {{#each . }}
         <tr>
             <td>{{date}}</td>
-            <td>{{authors}}</td>
+            <td>
+                {{#authors}}
+                    Name:{{.}}
+                {{/authors}}
+            </td>
             <td>
                 {{#if link}}
                     <a href="{{link}}" class="pull-right">&nbsp;
