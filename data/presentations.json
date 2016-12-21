@@ -1,0 +1,121 @@
+[
+  {
+    "date": "2016/09",
+    "authors": ["J. Bruns", "B. Amberg", "T. Setzer"],
+    "title": "Forecasting local temperatures in urban context",
+    "event": {
+      "title": "OR2016 – Annual International Conference of the German Operations Research Society",
+      "place": "Hamburg",
+      "url": "http://or2016.de/"
+    }
+  },
+  {
+    "date": "2016/06",
+    "authors": "M. Frank",
+    "title": "Integrating Big Spatio-Temporal Data Using Collaborative Semantic Data Management",
+    "event": {
+      "title": "International Conference on Web Engineering (ICWE2016)",
+      "place": "Lugano (CH)",
+      "url": "http://icwe2016.inf.usi.ch/"
+    }
+  },
+  {
+    "date": "2016/06",
+    "authors": ["A. Abecker", "T. Brauer", "J. Kutterer", "K. Schnitter", "J. Nimis", "P. Wiener"],
+    "title": "Überlegungen zu einer Spatial Big Data Architektur im BigGIS Projekt",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/2/29/AK_UIS-2016_Andreas_Abecker_BigGIS_handout.pdf",
+    "event": {
+      "title": "23. Workshop des Arbeitskreises Umweltinformationssysteme in der Gesellschaft für Informatik (GI)",
+      "place": "Leipzig"
+    }
+  },
+  {
+    "date": "2016/06",
+    "authors": "T. Setzer",
+    "title": "BigGis - Prescriptive geographical information systems (GIS) based on big data analytics infrastructures",
+    "event": {
+      "title": "1. Big Data All-Hands-Meeting",
+      "place": "Dresden"
+    }
+  },
+  {
+    "date": "2016/06",
+    "authors": "J. Bruns",
+    "title": "BigGIS – Considering uncertainty and heterogeneity in geo-spatial Big Data",
+    "event": "Vortrag beim 1. Big Data All-Hands-Meeting in Dresden"
+  },
+  {
+    "date": "2016/05",
+    "authors": ["M. Frank", "S. Zander"],
+    "title": "Smart Web Services for Big Spatio-Temporal Data in Geographical Information Systems",
+    "link": "http://salad2016.linked.services/menu/index.html"
+  },
+  {
+    "date": "2016/05",
+    "authors": ["A. Abecker", "T. Brauer", "J. Kutterer", "J. Nimis", "P. Wiener"],
+    "title": "Toward An Architecture for Processing Spatial Big Data",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5e/GWF-2016_Andreas_Abecker_v2.pdf"
+  },
+  {
+    "date": "2016/05",
+    "authors": ["B. Bernsdorf", "J. Bruns"],
+    "title": "Big-Data und Data-Mining im Umfeld städtischer Nutzungskartierung",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf"
+  },
+  {
+    "date": "2016/05",
+    "authors": "A. Abecker",
+    "title": "Smart Geodata: Anwendungsfelder und Herausforderungen",
+    "link": "http://rg-wuerzburg.gi.de/veranstaltungen.html"
+  },
+  {
+    "date": "2016/02",
+    "authors": "B. Bernsdorf",
+    "title": "Big Data and Data Mining in Fire Services - a first perspective",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5f/20160202_BigGIS_for_Fire_Services.pdf"
+  },
+  {
+    "date": "2015/11",
+    "authors": "B. Bernsdorf",
+    "title": "BigGIS - Wie Copernicus und Flugroboter den Feuerwehreinsatz verändern",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/4/4e/20151105_BigGIS_und_Copernicus_f%C3%BCr_MRM.pdf"
+  },
+  {
+    "date": "2015/11",
+    "authors": "M. Frank",
+    "title": "Dynamic integration of geo temporal data due to semantically described heterogeneous sources within the BigGIS project",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf"
+  },
+  {
+    "date": "2015/09",
+    "authors": "A. Abecker",
+    "title": "Smart Geodata - Applications and Challenges",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/bb/Aab-INFORMATIK-2015.pdf"
+  },
+  {
+    "date": "2015/09",
+    "authors": "W. Kazakos",
+    "title": "Spatial Big Data - Herausforderungen und Chancen",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5b/Wk-INTERGEO-2015.pdf"
+  },
+  {
+    "date": "2015/07",
+    "authors": "V. Simko",
+    "title": "BigGIS Project - ICMSEM'15 Keynote",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/0/04/ICMSEM15_BigGIS_2015-07-22.pdf"
+  },
+  {
+    "date": "2015/05",
+    "authors": "W. Kazakos",
+    "title": "Big Data - Chancen und Herausforderungen für die Umweltinformatik",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/8/89/Wk-akuis-2016-big-data.pdf"
+  }
+]
+
+
+
+
+
+
+
+
