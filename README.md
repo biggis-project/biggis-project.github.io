@@ -23,8 +23,13 @@ Use Jekyll locally and then push to github:
  6. After approx. 5 seconds visit http://biggis-project.eu
 
 ### Other notes
+
 - Lists of papers, presentations and press releases are generated from JSON files located in `data/*.json`
 - Rendering runs on client side with the help of Handlebar templates located in `_includes/*-tpl.html`
 - In future, it is thus possible to load JSON from external services.
 - We are using javascript here, because the jekyll engine used by github is not powerfull enough
   to transform json data to html.
+
+- file `javasripts/main.js` contains code that is avaiable on all pages because it is included inside
+  the `_layouts/default.html` jekyll template.
+- we also include bootstrap, jquery and handelbars libraries
