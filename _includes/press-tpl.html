@@ -4,12 +4,11 @@
     {{#each . }}
     <li>
       {{#if link}}
-      <a href="{{link}}">{{title}}</a>, {{date}}
+        <a href="{{link}}">{{title}}</a>, {{date}}
       {{/if}}
       {{#if pdf}}
-      <a href="{{pdf}}">{{title}}</a>, {{date}}
+        <a href="{{pdf}}">{{title}}</a>, {{date}}
       {{/if}}
-      </td>
     </li>
     {{/each}}
   </ul>
