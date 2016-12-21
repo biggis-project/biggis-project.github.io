@@ -1,0 +1,16 @@
+{% raw %}
+<script id="tpl-github-org-members" type="text/x-handlebars-template">
+  {{#each . }}
+    <a href="{{html_url}}" target="_blank"><img src="{{avatar_url}}" alt="{{login}}" class="img-circle" width="100" height="100"/></a>
+  {{/each}}
+</script>
+<script>
+  (function() {
+    var target = $(document.currentScript).wrapAll('<div>').parent()
+    $.getJSON("https://api.github.com/orgs/biggis-project/members", function(json) {
+      var template = Handlebars.compile($("#tpl-github-org-members").html())
+      var sorted = json.sort(function(a,b){return a.id - b.id})
+      target.html(template(sorted))
+    })
+  })()
+</script>

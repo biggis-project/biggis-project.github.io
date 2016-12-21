@@ -5,9 +5,6 @@ lang: de
 mainmenu: yes
 ---
 
-### Komponenten
-* [Alle Komponenten stehen als Git-Repositories zur Verfügung](https://github.com/biggis-project)
-
 ### Veröffentlichungen
 {% include list-papers.html %}
 
@@ -16,3 +13,9 @@ mainmenu: yes
 
 ### Pressemeldungen
 {% include list-press.html %}
+
+### Github Teammitgliedern
+{% include list-github-org-members.html %}
+
+### Github repositories
+{% include list-github-org-repos.html %}

@@ -1,0 +1,20 @@
+{% raw %}
+<script id="tpl-github-org-repos" type="text/x-handlebars-template">
+  <ul>
+    {{#each . }}
+      {{#unless fork}}
+        <li><a href="{{html_url}}">{{name}}</a> : {{description}}</li>
+      {{/unless}}
+    {{/each}}
+  </ul>
+</script>
+<script>
+  (function() {
+    var target = $(document.currentScript).wrapAll('<div>').parent()
+    $.getJSON("https://api.github.com/orgs/biggis-project/repos", function(json) {
+      var template = Handlebars.compile($("#tpl-github-org-repos").html())
+      var sorted = json.sort(function(a,b){return a.name.localeCompare(b.name)})
+      target.html(template(sorted))
+    })
+  })()
+</script>

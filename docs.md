@@ -5,9 +5,6 @@ lang: en
 mainmenu: yes
 ---
 
-### List of components
-* [All components are git repositories hosted on Github](https://github.com/biggis-project)
-
 ### Papers
 {% include list-papers.html %}
 
@@ -16,3 +13,9 @@ mainmenu: yes
 
 ### Press releases
 {% include list-press.html %}
+
+### List of github team members
+{% include list-github-org-members.html %}
+
+### List of github repositories
+{% include list-github-org-repos.html %}
