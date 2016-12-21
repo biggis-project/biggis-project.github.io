@@ -1,0 +1,16 @@
+{% raw %}
+<script id="press-tpl" type="text/x-handlebars-template">
+    <ul>
+        {{#each . }}
+        <li>
+            {{#if link}}
+            <a href="{{link}}">{{title}}</a>, {{date}}
+            {{/if}}
+            {{#if pdf}}
+            <a href="{{pdf}}">{{title}}</a>, {{date}}
+            {{/if}}
+            </td>
+        </li>
+        {{/each}}
+    </ul>
+</script>

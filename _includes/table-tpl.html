@@ -1,0 +1,27 @@
+{% raw %}
+<script id="table-tpl" type="text/x-handlebars-template">
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Author(s)</th>
+            <th>Title / Link</th>
+        </tr>
+        {{#each . }}
+        <tr>
+            <td>{{date}}</td>
+            <td>{{authors}}</td>
+            <td>
+                {{#if link}}
+                    <a href="{{link}}" class="pull-right">&nbsp;
+                    <span class="glyphicon glyphicon-new-window"></span></a>
+                {{/if}}
+                {{#if pdf}}
+                    <a href="{{pdf}}" class="pull-right">&nbsp;
+                    <span class="glyphicon glyphicon-file"></span></a>
+                {{/if}}
+                {{title}}.
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</script>
