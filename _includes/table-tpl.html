@@ -17,16 +17,14 @@
         {{/each}}
       </td>
       <td>
-        {{#if link}}
-          <span class="pull-right">
-            &nbsp;<a href="{{link}}"><span class="glyphicon glyphicon-new-window"></span></a>
-          </span>
-        {{/if}}
-        {{#if pdf}}
-          <span class="pull-right">
-            &nbsp;<a href="{{pdf}}"><span class="glyphicon glyphicon-file"></span></a>
-          </span>
-        {{/if}}
+        <span class="pull-right icon-in-table">
+          {{#if link}}
+              <a href="{{link}}"><span class="glyphicon glyphicon-new-window"></span></a>
+          {{/if}}
+          {{#if pdf}}
+              <a href="{{pdf}}"><span class="glyphicon glyphicon-file"></span></a>
+          {{/if}}
+        </span>
         {{title}}.
       </td>
     </tr>
