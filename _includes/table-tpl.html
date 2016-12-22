@@ -18,10 +18,14 @@
       </td>
       <td>
         {{#if link}}
-          &nbsp;<a href="{{link}}" class="pull-right"><span class="glyphicon glyphicon-new-window"></span></a>
+          <span class="pull-right">
+            &nbsp;<a href="{{link}}"><span class="glyphicon glyphicon-new-window"></span></a>
+          </span>
         {{/if}}
         {{#if pdf}}
-          &nbsp;<a href="{{pdf}}" class="pull-right"><span class="glyphicon glyphicon-file"></span></a>
+          <span class="pull-right">
+            &nbsp;<a href="{{pdf}}"><span class="glyphicon glyphicon-file"></span></a>
+          </span>
         {{/if}}
         {{title}}.
       </td>
