@@ -349,6 +349,13 @@ Added for BigGIS
     padding-left:5pt;
 }
 
+.img-circle {
+  transition: 1s;
+}
+.img-circle:hover {
+  transition: 500ms;
+  background-color:rgb(152, 197, 236);
+}
 
 /*******************************************************************************
 Small Device Styles
