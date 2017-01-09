@@ -141,10 +141,10 @@
     "title": "BigGIS - Wie Copernicus und Flugroboter den Feuerwehreinsatz verändern",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/4/4e/20151105_BigGIS_und_Copernicus_f%C3%BCr_MRM.pdf",
     "event": {
-      "title": "",
-      "url": "",
-      "when": "",
-      "place": ""
+      "title": "Workshop: Copernicus - (K)ein Thema für Land und Kommune? beim Nationalen Forum für Fernerkundung und Copernicus",
+      "url": "http://www.d-copernicus.de/sites/default/files/dokumente/Forum_2015/Bernsdorf_EFTAS.pdf",
+      "when": "05.11.2015",
+      "place": "BMVI, Berlin"
     }
   },
   {
@@ -153,10 +153,10 @@
     "title": "Dynamic integration of geo temporal data due to semantically described heterogeneous sources within the BigGIS project",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf",
     "event": {
-      "title": "Workshop: Copernicus - (K)ein Thema für Land und Kommune? beim Nationalen Forum für Fernerkundung und Copernicus",
-      "url": "http://www.d-copernicus.de/sites/default/files/dokumente/Forum_2015/Bernsdorf_EFTAS.pdf",
-      "when": "05.11.2015",
-      "place": "BMVI, Berlin"
+      "title": "Fast Data SIG",
+      "url": "https://km.aifb.kit.edu/intern/LIOWiki/index.php/Big/Fast_Data-SIG Big/Fast_Data-SIG",
+      "when": "16.11.2015",
+      "place": "Karlsruhe"
     }
   },
   {
