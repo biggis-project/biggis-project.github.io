@@ -127,43 +127,85 @@
     "date": "2016/02",
     "authors": "B. Bernsdorf",
     "title": "Big Data and Data Mining in Fire Services - a first perspective",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5f/20160202_BigGIS_for_Fire_Services.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5f/20160202_BigGIS_for_Fire_Services.pdf",
+    "event": {
+      "title": "GI-Forum des Institut für Geoinformatik an der Universtität Münster (IfGI)",
+      "url": "http://www.uni-muenster.de/Geoinformatics/GI-Forum/index.shtml",
+      "when": "02.02.2016",
+      "place": "Münster"
+    }
   },
   {
     "date": "2015/11",
     "authors": "B. Bernsdorf",
     "title": "BigGIS - Wie Copernicus und Flugroboter den Feuerwehreinsatz verändern",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/4/4e/20151105_BigGIS_und_Copernicus_f%C3%BCr_MRM.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/4/4e/20151105_BigGIS_und_Copernicus_f%C3%BCr_MRM.pdf",
+    "event": {
+      "title": "",
+      "url": "",
+      "when": "",
+      "place": ""
+    }
   },
   {
     "date": "2015/11",
     "authors": "M. Frank",
     "title": "Dynamic integration of geo temporal data due to semantically described heterogeneous sources within the BigGIS project",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/f/f1/Dynamic_integration_of_geo_temporal_data_due_to_semantically_described_heterogeneous_sources_within_the_BigGIS_project.pdf",
+    "event": {
+      "title": "Workshop: Copernicus - (K)ein Thema für Land und Kommune? beim Nationalen Forum für Fernerkundung und Copernicus",
+      "url": "http://www.d-copernicus.de/sites/default/files/dokumente/Forum_2015/Bernsdorf_EFTAS.pdf",
+      "when": "05.11.2015",
+      "place": "BMVI, Berlin"
+    }
   },
   {
     "date": "2015/09",
     "authors": "A. Abecker",
     "title": "Smart Geodata - Applications and Challenges",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/bb/Aab-INFORMATIK-2015.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/bb/Aab-INFORMATIK-2015.pdf",
+    "event": {
+      "title": "Workshop: Big Data, Smart Data and Semantic Technologies (INFORMATIK-2015)",
+      "url": "https://www.fzi.de/en/news/bdsdst-2015/?12bis3_config%5Bshow%5D=642&cHash=429a0166a3cdeb6406917d241cff59dd",
+      "when": "2015/09",
+      "place": "Cottbus"
+    }
   },
   {
     "date": "2015/09",
     "authors": "W. Kazakos",
     "title": "Spatial Big Data - Herausforderungen und Chancen",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5b/Wk-INTERGEO-2015.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5b/Wk-INTERGEO-2015.pdf",
+    "event": {
+      "title": "Fachkongress der INTERGEO 2015",
+      "url": "http://www.intergeo.de/",
+      "when": "2015/09",
+      "place": "Messe Stuttgart"
+    }
   },
   {
     "date": "2015/07",
     "authors": "V. Simko",
     "title": "BigGIS Project - ICMSEM'15 Keynote",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/0/04/ICMSEM15_BigGIS_2015-07-22.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/0/04/ICMSEM15_BigGIS_2015-07-22.pdf",
+    "event": {
+      "title": "The 9th International Conference on Management Science and Engineering Management (ICMSEM'15)",
+      "url": "http://www.icmsem.org/past/201501/7.html",
+      "when": "21.06.2015 - 23.06.2015",
+      "place": "Karlsruhe"
+    }
   },
   {
     "date": "2015/05",
     "authors": "W. Kazakos",
     "title": "Big Data - Chancen und Herausforderungen für die Umweltinformatik",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/8/89/Wk-akuis-2016-big-data.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/8/89/Wk-akuis-2016-big-data.pdf",
+    "event": {
+      "title": "Workshop: Umweltinformationssysteme (AK-UIS) des GI-Arbeitskreises „Umweltinformationssysteme“",
+      "url": "http://www.ak-uis.de/",
+      "when": "2015/05",
+      "place": "Universität Kassel"
+    }
   }
 ]
 
