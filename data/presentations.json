@@ -70,7 +70,13 @@
       "S. Zander"
     ],
     "title": "Smart Web Services for Big Spatio-Temporal Data in Geographical Information Systems",
-    "link": "http://salad2016.linked.services/menu/index.html"
+    "link": "http://salad2016.linked.services/menu/index.html",
+    "event": {
+      "title": "Services and Applications over Linked APIs and Data (SALAD 2016)",
+      "place": "Kreta (GR)",
+      "when": "29.05.2016",
+      "url": "http://salad2016.linked.services/menu/index.html"
+    }
   },
   {
     "date": "2016/05",
@@ -82,7 +88,13 @@
       "P. Wiener"
     ],
     "title": "Toward An Architecture for Processing Spatial Big Data",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5e/GWF-2016_Andreas_Abecker_v2.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/5/5e/GWF-2016_Andreas_Abecker_v2.pdf",
+    "event": {
+      "title": "Geospatial World Forum (GWF 2016)",
+      "url": "http://geospatialworldforum.org/",
+      "when": "25.05.2016",
+      "place": "Rotterdam (NL)"
+    }
   },
   {
     "date": "2016/05",
@@ -91,13 +103,25 @@
       "J. Bruns"
     ],
     "title": "Big-Data und Data-Mining im Umfeld städtischer Nutzungskartierung",
-    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf"
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf",
+    "event": {
+      "title": "8. Dresdner Flächennutzungssymposium vom Institut für Ökologische Raumentwicklung (IÖR)",
+      "url": "https://www.ioer.de/8dfns/",
+      "when": "12.05.2016",
+      "place": "Dresden"
+    }
   },
   {
     "date": "2016/05",
     "authors": "A. Abecker",
     "title": "Smart Geodata: Anwendungsfelder und Herausforderungen",
-    "link": "http://rg-wuerzburg.gi.de/veranstaltungen.html"
+    "link": "http://rg-wuerzburg.gi.de/veranstaltungen.html",
+    "event": {
+      "title": "Regionalgruppe Würzburg der Gesellschaft für Informatik (GI)",
+      "url": "http://rg-wuerzburg.gi.de/veranstaltungen.html",
+      "when": "03.05.2016",
+      "place": "Würzburg"
+    }
   },
   {
     "date": "2016/02",
