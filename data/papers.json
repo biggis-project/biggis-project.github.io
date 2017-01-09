@@ -18,5 +18,21 @@
       "place": "San Francisco, USA",
       "info": "31.10-03.11.2016"
     }
+  },
+  {
+    "date": "2017/04",
+    "authors": [
+      "Patrick Wiener",
+      "Viliam Simko",
+      "Jens Nimis"
+    ],
+    "title": "Taming the Evolution of Big Data and its Technologies in BigGIS",
+    "note": "submitted, under review",
+    "event": {
+      "title": "GISTAM – International Conference on Geographical Information Systems Theory, Applications and Management",
+      "url": "http://www.gistam.org/",
+      "place": "Porto, Portugal",
+      "info": "27. - 28.04.2017"
+    }
   }
 ]
