@@ -10,6 +10,7 @@
     "event": {
       "title": "OR2016 – Annual International Conference of the German Operations Research Society",
       "place": "Hamburg",
+      "when": "01.09.2016",
       "url": "http://or2016.de/"
     }
   },
@@ -20,6 +21,7 @@
     "event": {
       "title": "International Conference on Web Engineering (ICWE2016)",
       "place": "Lugano (CH)",
+      "when": "08.06.2016",
       "url": "http://icwe2016.inf.usi.ch/"
     }
   },
@@ -37,6 +39,8 @@
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/2/29/AK_UIS-2016_Andreas_Abecker_BigGIS_handout.pdf",
     "event": {
       "title": "23. Workshop des Arbeitskreises Umweltinformationssysteme in der Gesellschaft für Informatik (GI)",
+      "url": "http://ak-uis.de/",
+      "when": "03.06.2016",
       "place": "Leipzig"
     }
   },
@@ -46,6 +50,7 @@
     "title": "BigGis - Prescriptive geographical information systems (GIS) based on big data analytics infrastructures",
     "event": {
       "title": "1. Big Data All-Hands-Meeting",
+      "when": "02.06.2016",
       "place": "Dresden"
     }
   },
@@ -53,7 +58,10 @@
     "date": "2016/06",
     "authors": "J. Bruns",
     "title": "BigGIS – Considering uncertainty and heterogeneity in geo-spatial Big Data",
-    "event": "Vortrag beim 1. Big Data All-Hands-Meeting in Dresden"
+    "event": {
+      "title": "1. Big Data All-Hands-Meeting",
+      "place": "Dresden"
+    }
   },
   {
     "date": "2016/05",
