@@ -357,6 +357,17 @@ Added for BigGIS
   background-color:rgb(152, 197, 236);
 }
 
+.editlist {
+	float:right;
+	margin-left:10px;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.editlist:before {
+	content: "⏴";
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
