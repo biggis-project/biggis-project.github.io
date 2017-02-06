@@ -1,10 +1,46 @@
-{% include table-tpl.html %}
+{% raw %}
+<script id="presentations-tpl" type="text/x-handlebars-template">
+  <a class="editlist" href="https://github.com/biggis-project/biggis-project.github.io/blob/master/data/presentations.json">Edit this table</a>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Author(s)</th>
+      <th>Title / Link</th>
+    </tr>
+    {{#each . }}
+    <tr>
+      <td>{{date}}</td>
+      <td>
+        {{#each authors}}
+          <span class="text-nowrap">{{.}}{{#unless @last}},{{/unless}}</span>
+        {{else}}
+          <span class="text-nowrap">{{authors}}</span>
+        {{/each}}
+      </td>
+      <td>
+        <span class="pull-right icon-in-table">
+          {{#if link}}
+              <a href="{{link}}"><span class="glyphicon glyphicon-new-window"></span></a>
+          {{/if}}
+          {{#if pdf}}
+              <a href="{{pdf}}"><span class="glyphicon glyphicon-file"></span></a>
+          {{/if}}
+        </span>
+        {{title}}.
+        {{#if note}}
+          <div>({{note}})</div>
+        {{/if}}
+      </td>
+    </tr>
+    {{/each}}
+  </table>
+</script>
 <script>
   (function() {
     var target = $(document.currentScript).wrapAll('<div>').parent()
     $.getJSON("data/presentations.json", function(json) {
       var sorted = json.sort(sortByDate)
-      var template = Handlebars.compile($("#table-tpl").html())
+      var template = Handlebars.compile($("#presentations-tpl").html())
       target.html(template(sorted))
     })
   })()

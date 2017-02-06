@@ -1,4 +1,19 @@
-{% include press-tpl.html %}
+{% raw %}
+<script id="press-tpl" type="text/x-handlebars-template">
+  <a class="editlist" href="https://github.com/biggis-project/biggis-project.github.io/blob/master/data/press.json">Edit this list</a>
+  <ul>
+    {{#each . }}
+    <li>
+      {{#if link}}
+        <a href="{{link}}">{{title}}</a>, {{date}}
+      {{/if}}
+      {{#if pdf}}
+        <a href="{{pdf}}">{{title}}</a>, {{date}}
+      {{/if}}
+    </li>
+    {{/each}}
+  </ul>
+</script>
 <script>
   (function() {
     var target = $(document.currentScript).wrapAll('<div>').parent()
