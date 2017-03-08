@@ -11,6 +11,7 @@
       "S. Zander",
       "J. Nimis"
     ],
+    "pdf": "https://bib.dbvis.de/uploadedFiles/biggispaper.pdf",
     "title": "BigGIS: A Continuous Refinement Approach to Master Heterogeneity and Uncertainty in Spatio-Temporal Big Data (Vision Paper)",
     "event": {
       "title": "ACM SIGSPATIAL 2016 – International Conference on Advances in Geographic Information Systems",
@@ -28,7 +29,7 @@
     ],
     "title": "Taming the Evolution of Big Data and its Technologies in BigGIS",
     "event": {
-      "title": "GISTAM – International Conference on Geographical Information Systems Theory, Applications and Management",
+      "title": "GISTAM 2017 – International Conference on Geographical Information Systems Theory, Applications and Management",
       "url": "http://www.gistam.org/",
       "place": "Porto, Portugal",
       "info": "27. - 28.04.2017"
