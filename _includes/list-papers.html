@@ -32,8 +32,9 @@
         {{/if}}
         {{#if event}}
           <div class="small text-muted" style="padding-top:7px">
+            <a href="{{event.url}}" class="pull-right icon-in-table">
+              <span class="glyphicon glyphicon-new-window"></span></a>
             {{event.title}}, {{event.place}}, {{event.info}}
-            <a href="{{event.url}}"><span class="glyphicon glyphicon-new-window"></span></a>
           </div>
         {{/if}}
       </td>
