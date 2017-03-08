@@ -30,6 +30,12 @@
         {{#if note}}
           <div>({{note}})</div>
         {{/if}}
+        {{#if event}}
+          <div class="small text-muted" style="padding-top:7px">
+            {{event.title}}, {{event.place}}, {{event.info}}
+            <a href="{{event.url}}"><span class="glyphicon glyphicon-new-window"></span></a>
+          </div>
+        {{/if}}
       </td>
     </tr>
     {{/each}}
