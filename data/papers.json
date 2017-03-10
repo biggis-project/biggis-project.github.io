@@ -34,5 +34,13 @@
       "place": "Porto, Portugal",
       "info": "27. - 28.04.2017"
     }
+  },
+  {
+    "date": "2017/02",
+    "authors": [
+      "Julian Bruns",
+      "Viliam Simko"
+    ],
+    "title": "Stable Hot Spot Analysis for Intra Urban Heat Islands"
   }
 ]
