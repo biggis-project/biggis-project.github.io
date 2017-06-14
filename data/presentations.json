@@ -191,6 +191,18 @@
       "when": "2015/05",
       "place": "Universität Kassel"
     }
+  },
+  {
+    "date": "2016/12",
+    "authors": "Julian Bruns",
+    "title": "Interpolation of Intra-Urban Temperatures",
+    "link": "https://www.agw.kit.edu/fachgespraeche_archiv_8013.php",
+    "event": {
+      "title": "Geologisches Fachgespräch",
+      "url": "https://www.agw.kit.edu/geol_fachgespraech.php",
+      "when": "22.12.2016",
+      "place": "KIT, Karlsruhe"
+    }
   }
 ]
 
