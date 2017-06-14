@@ -36,14 +36,30 @@
     }
   },
   {
-    "date": "2017/02",
+    "date": "2017/07",
     "authors": [
       "Julian Bruns",
       "Viliam Simko"
     ],
-    "title": "Stable Hot Spot Analysis for Intra Urban Heat Islands"
+    "title": "Stable Hot Spot Analysis for Intra Urban Heat Islands",
+    "event" : {
+      "title" : "2017 GI_Forum",
+      "when" : "2017/1"
+    }
   },
-    {
+  {
+    "date": "2017/07",
+    "authors": [
+      "Joachim Rußig",
+      "Julian Bruns"
+    ],
+    "title": "Reducing Individual Heat Stress Through Path Planning",
+    "event" : {
+      "title" : "2017 GI_Forum",
+      "when" : "2017/1"
+    }
+  },
+  {
     "date": "2016/05",
     "authors": [
       "B. Bernsdorf",
