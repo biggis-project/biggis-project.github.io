@@ -203,6 +203,16 @@
       "when": "22.12.2016",
       "place": "KIT, Karlsruhe"
     }
+  },
+  {
+    "date": "2016/08",
+    "authors": "Julian Bruns",
+    "title": "Uncertainty and Heterogeneity in temparature data",
+    "event": {
+      "title": "Summer school on visual analytics",
+      "when": "01.08.2016",
+      "place": "University of Konstanz"
+    }
   }
 ]
 
