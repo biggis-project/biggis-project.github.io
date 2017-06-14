@@ -46,7 +46,10 @@
   },
   {
     "date": "2016/06",
-    "authors": "T. Setzer",
+    "authors": [
+      "T. Setzer",
+      "J. Bruns"
+    ],
     "title": "BigGis - Prescriptive geographical information systems (GIS) based on big data analytics infrastructures",
     "event": {
       "title": "1. Big Data All-Hands-Meeting",
