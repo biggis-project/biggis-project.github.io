@@ -42,5 +42,20 @@
       "Viliam Simko"
     ],
     "title": "Stable Hot Spot Analysis for Intra Urban Heat Islands"
+  },
+    {
+    "date": "2016/05",
+    "authors": [
+      "B. Bernsdorf",
+      "J. Bruns"
+    ],
+    "title": "Big-Data und Data-Mining im Umfeld städtischer Nutzungskartierung",
+    "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf",
+    "event": {
+      "title": "8. Dresdner Flächennutzungssymposium vom Institut für Ökologische Raumentwicklung (IÖR)",
+      "url": "https://www.ioer.de/8dfns/",
+      "when": "12.05.2016",
+      "place": "Dresden"
+    }
   }
 ]
