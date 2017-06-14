@@ -216,6 +216,37 @@
       "when": "01.08.2016",
       "place": "University of Konstanz"
     }
+  },
+  {
+    "date": "2017/10",
+    "authors": [
+      "Julian Bruns",
+      "Matthias Frank",
+      "Viliam Simko",
+      "Jens Nimis",
+      "Thomas Setzer",
+      "Patrick Wiener"
+    ],
+    "title": "BigGIS - Stream Enrichment With Temperature Data",
+    "event": {
+      "title": "2nd BMBF Big Data All Hands Meeting and 2nd Smart Data Innovation Conference",
+      "when": "11-12 October 2017",
+      "place": "Karlsruhe"
+    }
+  },
+  {
+    "date": "2017/10",
+    "authors": [
+      "Bodo Bernsdorf",
+      "Julian Bruns",
+      "Katharina Glock"
+    ],
+    "title": "BigGIS - Einsatz von Flugrobotern zur Entscheidungsunterstützung bei Bränden",
+    "event": {
+      "title": "2nd BMBF Big Data All Hands Meeting and 2nd Smart Data Innovation Conference",
+      "when": "11-12 October 2017",
+      "place": "Karlsruhe"
+    }
   }
 ]
 
