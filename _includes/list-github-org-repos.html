@@ -2,7 +2,7 @@
 <script id="tpl-github-org-repos" type="text/x-handlebars-template">
   <ul>
     {{#each . }}
-      {{#unless fork}}
+      {{#unless private}}
         <li><a href="{{html_url}}">{{name}}</a> : {{description}}</li>
       {{/unless}}
     {{/each}}
