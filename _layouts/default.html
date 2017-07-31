@@ -33,7 +33,11 @@
     </h2>
 
     <section id="mainmenu">
-      {% assign mainmenu = site.pages | where: "mainmenu", true | where: "lang", page.lang | sort: "title" %}
+      {% assign
+        mainmenu = site.pages |
+        where: "mainmenu", true |
+        where: "lang", page.lang |
+        sort: "order" %}
       {% for p in mainmenu %}
         <a href="{{ p.url }}">{{ p.title }}</a>
         {% unless forloop.last %} | {% endunless %}

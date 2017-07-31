@@ -3,6 +3,7 @@ layout: default
 title: About
 lang: en
 mainmenu: yes
+order: 1
 ---
 
 

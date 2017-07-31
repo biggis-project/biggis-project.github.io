@@ -3,6 +3,7 @@ layout: default
 title: BigGIS
 lang: de
 mainmenu: yes
+order: 1
 ---
 
 ### BigGIS Projekt
