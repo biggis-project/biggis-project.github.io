@@ -3,7 +3,14 @@ layout: default
 title: Documentation
 lang: en
 mainmenu: yes
+order: 3
 ---
+
+### Technical documentation
+Central documentation describing all BigGIS components:
+
+- [online version on readthedocs](http://biggis.readthedocs.io)
+- [git source on github](https://github.com/biggis-project/biggis-docs)
 
 ### Papers
 {% include list-papers.html %}
