@@ -84,5 +84,24 @@
       "when": "12.05.2016",
       "place": "Dresden"
     }
+  },
+  {
+    "date": "2017/10",
+    "authors": [
+      "D. Seebacher",
+      "J. Häußler", 
+	  "M. Hundt", 
+	  "M. Stein", 
+	  "H. Müller", 
+	  "U. Engelke", 
+	  "D. Keim"
+    ],
+    "title": "Visual Analysis of Spatio-Temporal Event Predictions: Investigating the Spread Dynamics of Invasive Species",
+    "event": {
+      "title": "Symposium on Visualization in Data Science (VDS) at IEEE VIS 2017",
+      "url": "http://www.visualdatascience.org/2017/index.html",
+      "when": "01.10.2017",
+      "place": "Phoenix"
+    }
   }
 ]
