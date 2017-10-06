@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "List of press releases",
+  "type": "array",
+  "items": {
+    "title": "PressRelease",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "date": {
+        "description": "Date of the press release formatted as YYYY/MM or DD.MM.YYYY",
+        "type": "string",
+        "pattern": "^([0-9]{4}/[0-9]{2}|[0-9]{2}\\.[0-9]{2}\\.[0-9]{4})$"
+      },
+      "title": {
+        "type": "string"
+      },
+      "link": {
+        "type": "string",
+        "pattern": "^https?://"
+      }
+    },
+    "required": [
+      "date",
+      "title",
+      "link"
+    ]
+  }
+}

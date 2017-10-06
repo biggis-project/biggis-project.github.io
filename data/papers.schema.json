@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "List of papers",
+  "type": "array",
+  "items": {
+    "title": "Paper",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "date": {
+        "description": "Date of the press release formatted as YYYY/MM",
+        "type": "string",
+        "pattern": "^[0-9]{4}/[0-9]{2}$"
+      },
+      "title": {
+        "type": "string"
+      },
+      "doi": {
+        "type": "string",
+        "pattern": "[0-9./]"
+      },
+      "pdf": {
+        "type": "string",
+        "pattern": "^https?://"
+      },
+      "authors": {
+        "description": "Author or a list of authors. Each formatted as: `J. Doe`",
+        "type": [
+          "array",
+          "string"
+        ],
+        "minItems": 1,
+        "uniqueItems": true,
+        "pattern": "^[A-Z][a-z]?\\. [A-Z]"
+      },
+      "event": {
+        "title": "",
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "place": {
+            "type": "string"
+          },
+          "when": {
+            "type": "string",
+            "description": "Date or date interval of the press release formatted as `DD.MM.YYYY` or `DD.MM.YYYY - DD.MM.YYYY` or `YYYY/MM`",
+            "pattern": "^[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}( - [0-9]{2}\\.[0-9]{2}\\.[0-9]{4})?$|^[0-9]{4}/[0-9]{2}$"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https?://"
+          },
+          "info": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url",
+          "when"
+        ]
+      }
+    },
+    "required": [
+      "date",
+      "authors",
+      "title",
+      "event"
+    ]
+  }
+}
