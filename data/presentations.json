@@ -63,6 +63,7 @@
     "title": "BigGIS – Considering uncertainty and heterogeneity in geo-spatial Big Data",
     "event": {
       "title": "1. Big Data All-Hands-Meeting",
+      "when": "02.06.2016 - 03.06.2016",
       "place": "Dresden"
     }
   },
@@ -154,8 +155,7 @@
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/bb/Aab-INFORMATIK-2015.pdf",
     "event": {
       "title": "Workshop: Big Data, Smart Data and Semantic Technologies (INFORMATIK-2015)",
-      "url": "https://www.fzi.de/en/news/bdsdst-2015/?12bis3_config%5Bshow%5D=642&cHash=429a0166a3cdeb6406917d241cff59dd",
-      "when": "2015/09",
+      "when": "29.09.2015",
       "place": "Cottbus"
     }
   },
@@ -167,7 +167,7 @@
     "event": {
       "title": "Fachkongress der INTERGEO 2015",
       "url": "http://www.intergeo.de/",
-      "when": "2015/09",
+      "when": "15.09.2015 - 17.09.2015",
       "place": "Messe Stuttgart"
     }
   },
@@ -191,13 +191,13 @@
     "event": {
       "title": "Workshop: Umweltinformationssysteme (AK-UIS) des GI-Arbeitskreises „Umweltinformationssysteme“",
       "url": "http://www.ak-uis.de/",
-      "when": "2015/05",
+      "when": "07.05.2015",
       "place": "Universität Kassel"
     }
   },
   {
     "date": "2016/12",
-    "authors": "Julian Bruns",
+    "authors": "J. Bruns",
     "title": "Interpolation of Intra-Urban Temperatures",
     "link": "https://www.agw.kit.edu/fachgespraeche_archiv_8013.php",
     "event": {
@@ -209,7 +209,7 @@
   },
   {
     "date": "2016/08",
-    "authors": "Julian Bruns",
+    "authors": "J. Bruns",
     "title": "Uncertainty and Heterogeneity in temparature data",
     "event": {
       "title": "Summer school on visual analytics",
@@ -230,7 +230,7 @@
     "title": "BigGIS - Stream Enrichment With Temperature Data",
     "event": {
       "title": "2nd BMBF Big Data All Hands Meeting and 2nd Smart Data Innovation Conference",
-      "when": "11-12 October 2017",
+      "when": "11.10.2017 - 12.10.2017",
       "place": "Karlsruhe"
     }
   },
@@ -244,16 +244,8 @@
     "title": "BigGIS - Einsatz von Flugrobotern zur Entscheidungsunterstützung bei Bränden",
     "event": {
       "title": "2nd BMBF Big Data All Hands Meeting and 2nd Smart Data Innovation Conference",
-      "when": "11-12 October 2017",
+      "when": "11.10.2017 - 12.10.2017",
       "place": "Karlsruhe"
     }
   }
 ]
-
-
-
-
-
-
-
-

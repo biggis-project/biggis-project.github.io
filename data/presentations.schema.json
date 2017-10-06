@@ -17,6 +17,10 @@
       },
       "pdf": {
         "type": "string",
+        "pattern": "^https?://.*\\.pdf$"
+      },
+      "link": {
+        "type": "string",
         "pattern": "^https?://"
       },
       "authors": {
