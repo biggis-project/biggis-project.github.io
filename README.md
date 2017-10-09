@@ -24,9 +24,10 @@ Use Jekyll locally and then push to github:
 
 ### Other notes
 
-- Lists of papers, presentations and press releases are generated from JSON files located in `data/*.json`
+- Lists of papers, presentations and press releases are generated from JSON files located in `data/*.json`.
+    - The corresponding JSON schemas are defined in `data/*.schema.json`
+    - In future, it will be possible to load JSON from external services.
 - Rendering runs on client side with the help of Handlebar templates located in `_includes/*.html`
-- In future, it is thus possible to load JSON from external services.
 - We are using javascript here, because the jekyll engine used by github is not powerfull enough
   to transform json data to html.
 
