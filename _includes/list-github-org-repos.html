@@ -9,13 +9,15 @@
   </ul>
 </script>
 <script>
-  (function() {
-    var target = $(document.currentScript).wrapAll('<div>').parent()
-    $.getJSON("https://api.github.com/orgs/biggis-project/repos", function(json) {
-      var template = Handlebars.compile($("#tpl-github-org-repos").html())
-      var sorted = json.sort(function(a,b){return a.name.localeCompare(b.name)})
-      target.html(template(sorted))
-    })
-  })()
+  {
+    const target = $(document.currentScript).wrapAll('<div>').parent()
+    fetch("https://api.github.com/orgs/biggis-project/repos")
+      .then(response => response.json())
+      .then(json => {
+        const template = Handlebars.compile($("#tpl-github-org-repos").html())
+        const sorted = json.sort((a,b) => a.name.localeCompare(b.name))
+        target.html(template(sorted))
+      })
+  }
 </script>
 {% endraw %}

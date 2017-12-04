@@ -5,13 +5,15 @@
   {{/each}}
 </script>
 <script>
-  (function() {
-    var target = $(document.currentScript).wrapAll('<div>').parent()
-    $.getJSON("https://api.github.com/orgs/biggis-project/members", function(json) {
-      var template = Handlebars.compile($("#tpl-github-org-members").html())
-      var sorted = json.sort(function(a,b){return a.id - b.id})
-      target.html(template(sorted))
-    })
-  })()
+  {
+    const target = $(document.currentScript).wrapAll('<div>').parent()
+    fetch("https://api.github.com/orgs/biggis-project/members")
+      .then(response => response.json())
+      .then(json => {
+        const template = Handlebars.compile($("#tpl-github-org-members").html())
+        const sorted = json.sort((a, b) => a.id - b.id)
+        target.html(template(sorted))
+      })
+  }
 </script>
 {% endraw %}

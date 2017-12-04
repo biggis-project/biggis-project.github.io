@@ -15,13 +15,15 @@
   </ul>
 </script>
 <script>
-  (function() {
-    var target = $(document.currentScript).wrapAll('<div>').parent()
-    $.getJSON("data/press.json", function(json) {
-      var sorted = json.sort(sortByDate)
-      var template = Handlebars.compile($("#press-tpl").html())
-      target.html(template(sorted))
-    })
-  })()
+  {
+    const target = $(document.currentScript).wrapAll('<div>').parent()
+    fetch("data/press.json")
+      .then(response => response.json())
+      .then(json => {
+        const sorted = json.sort(sortByDate)
+        const template = Handlebars.compile($("#press-tpl").html())
+        target.html(template(sorted))
+      })
+  }
 </script>
 {% endraw %}

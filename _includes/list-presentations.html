@@ -36,13 +36,15 @@
   </table>
 </script>
 <script>
-  (function() {
-    var target = $(document.currentScript).wrapAll('<div>').parent()
-    $.getJSON("data/presentations.json", function(json) {
-      var sorted = json.sort(sortByDate)
-      var template = Handlebars.compile($("#presentations-tpl").html())
-      target.html(template(sorted))
-    })
-  })()
+  {
+    const target = $(document.currentScript).wrapAll('<div>').parent()
+    fetch("data/presentations.json")
+      .then(response => response.json())
+      .then(json => {
+        const sorted = json.sort(sortByDate)
+        const template = Handlebars.compile($("#presentations-tpl").html())
+        target.html(template(sorted))
+      })
+  }
 </script>
 {% endraw %}
