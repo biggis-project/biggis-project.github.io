@@ -7,10 +7,11 @@
 <script>
   {
     const target = $(document.currentScript).wrapAll('<div>').parent()
+    const template = Handlebars.compile($("#tpl-github-org-members").html())
+
     fetch("https://api.github.com/orgs/biggis-project/members")
       .then(response => response.json())
       .then(json => {
-        const template = Handlebars.compile($("#tpl-github-org-members").html())
         const sorted = json.sort((a, b) => a.id - b.id)
         target.html(template(sorted))
       })

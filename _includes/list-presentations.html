@@ -38,11 +38,12 @@
 <script>
   {
     const target = $(document.currentScript).wrapAll('<div>').parent()
+    const template = Handlebars.compile($("#presentations-tpl").html())
+
     fetch("data/presentations.json")
       .then(response => response.json())
       .then(json => {
         const sorted = json.sort(sortByDate)
-        const template = Handlebars.compile($("#presentations-tpl").html())
         target.html(template(sorted))
       })
   }

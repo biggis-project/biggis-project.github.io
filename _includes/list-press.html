@@ -17,11 +17,12 @@
 <script>
   {
     const target = $(document.currentScript).wrapAll('<div>').parent()
+    const template = Handlebars.compile($("#press-tpl").html())
+
     fetch("data/press.json")
       .then(response => response.json())
       .then(json => {
         const sorted = json.sort(sortByDate)
-        const template = Handlebars.compile($("#press-tpl").html())
         target.html(template(sorted))
       })
   }
