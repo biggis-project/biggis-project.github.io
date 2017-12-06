@@ -3,10 +3,13 @@
   .archived td {
     background-color: lightpink;
   }
+  sup {
+    font-size: xx-small;
+  }
 </style>
 <script id="repo-status-contrib-tpl" type="text/x-handlebars-template">
   {{#each . }}
-  <a href="{{url}}">{{login}}</a><br/>
+  <a href="{{html_url}}">{{login}}</a><sup>({{contributions}})</sup><br/>
   {{/each}}
 </script>
 
@@ -15,7 +18,7 @@
   <table>
     <tr>
       <th>Repository</th>
-      <th>Contributors</th>
+      <th>Contributions<sup>(howmany)</sup></th>
       <th>Description</th>
     </tr>
     {{#each . }}
@@ -48,8 +51,7 @@
 
       // loading contributors asynchronously
       const contribTemplate = Handlebars.compile($("#repo-status-contrib-tpl").html())
-      for(i in sorted) {
-        const repo = sorted[i]
+      for(const repo of sorted) {
         const contrib_url = repo.contributors_url.replace(/\{.*\}/)
         const contrib_json = await fetch(contrib_url).then(_ => _.json())
         const div = document.getElementById(`#repo${repo.id}`)
