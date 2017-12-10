@@ -1,4 +1,19 @@
 [
+ {
+    "date": "2016/12",
+    "authors": [
+      "D. Seebacher",
+      "M. Stein",
+      "D. Keim"
+    ],
+    "title": "Visuelle Analyse von räumlich-zeitlichen Eventvorhersagen: Untersuchung der Ausbreitungsdynamik von invasiven Arten",
+    "event": {
+      "title": "6. Treffen der AG Kirschessigfliege",
+      "place": "Bad Kreuznach",
+      "when": "05.12.2017",
+      "url": "http://www.zepp.info/termine-a-news/219-6-arbeitstreffen-der-ag-kirschessigfliege"
+    }
+  },
   {
     "date": "2016/09",
     "authors": [
