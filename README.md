@@ -1,36 +1,4 @@
-This is the official website of BigGIS project hosted through "github pages"
+We used Jekyll to generate BigGIS website from Markdown files.
+Now we moved to **mkdocs**. The website and documentation is now available here:
 
-## How to update the website
-
-### Small changes
-
-Small changes can be made directly from github web-interface by editing individual markdown files.
-When saved, the website is automatically updated and you can after ~5 seconds see the result at http://biggis-project.eu
-
-### Large changes
-
-The following steps are applicable:
- - if you need to substantially update the website, e.g. by changing the layout,
- - if you want to edit the text and preview the generated website before publishing
-
-Use Jekyll locally and then push to github:
- 1. Install `Jekyll` locally (e.g. `$ sudo apt install jekyll`)
- 2. clone the git repository
- 3. Start Jekyll HTTP server inside the cloned directory: `$ jekyll serve`
-    - The HTTP server starts at http://0.0.0.0:4000 by default
- 4. Preview your changes instantly in browser
- 5. When finished, commit and push the changes to github
- 6. After approx. 5 seconds visit http://biggis-project.eu
-
-### Other notes
-
-- Lists of papers, presentations and press releases are generated from JSON files located in `data/*.json`.
-    - The corresponding JSON schemas are defined in `data/*.schema.json`
-    - In future, it will be possible to load JSON from external services.
-- Rendering runs on client side with the help of Handlebar templates located in `_includes/*.html`
-- We are using javascript here, because the jekyll engine used by github is not powerfull enough
-  to transform json data to html.
-
-- file `javasripts/main.js` contains code that is avaiable on all pages because it is included inside
-  the `_layouts/default.html` jekyll template.
-- we also include bootstrap, jquery and handelbars libraries
+  - https://github.com/biggis-project/biggis-docs
