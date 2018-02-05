@@ -2,14 +2,14 @@
   {
     "date": "2016/11",
     "authors": [
-      "P. Wiener",
-      "M. Stein",
-      "D. Seebacher",
-      "J. Bruns",
-      "M. Frank",
-      "V. Simko",
-      "S. Zander",
-      "J. Nimis"
+      "Patrick Wiener",
+      "Manuel Stein",
+      "Daniel Seebacher",
+      "Julian Bruns",
+      "Matthias Frank",
+      "Viliam Simko",
+      "Stefan Zander",
+      "Jens Nimis"
     ],
     "title": "BigGIS: A Continuous Refinement Approach to Master Heterogeneity and Uncertainty in Spatio-Temporal Big Data (Vision Paper)",
     "doi": "10.1145/2996913.2996931",
@@ -18,7 +18,7 @@
       "title": "ACM SIGSPATIAL 2016 – International Conference on Advances in Geographic Information Systems",
       "url": "http://sigspatial2016.sigspatial.org/",
       "place": "San Francisco, USA",
-      "when" : "31.10.2016 - 03.11.2016"
+      "when": "31.10.2016 - 03.11.2016"
     }
   },
   {
@@ -47,11 +47,11 @@
     "title": "Stable Hot Spot Analysis for Intra Urban Heat Islands",
     "pdf": "http://hw.oeaw.ac.at/0xc1aa500e_0x00369cbe.pdf",
     "doi": "10.1553/giscience2017_01_s79",
-    "event" : {
-      "title" : "2017 GI_Forum",
+    "event": {
+      "title": "2017 GI_Forum",
       "url": "http://epub.oeaw.ac.at/8158-3_inhalt",
-      "when" : "2017/01",
-      "info" : "Journal article"
+      "when": "2017/01",
+      "info": "Journal article"
     }
   },
   {
@@ -63,18 +63,18 @@
     "title": "Reducing Individual Heat Stress Through Path Planning",
     "doi": "10.1553/giscience2017_01_s327",
     "pdf": "http://hw.oeaw.ac.at/0xc1aa500e_0x00369db1.pdf",
-    "event" : {
-      "title" : "2017 GI_Forum",
+    "event": {
+      "title": "2017 GI_Forum",
       "url": "http://epub.oeaw.ac.at/8158-3_inhalt",
-      "when" : "2017/01",
-      "info" : "Journal article"
+      "when": "2017/01",
+      "info": "Journal article"
     }
   },
   {
     "date": "2016/05",
     "authors": [
-      "B. Bernsdorf",
-      "J. Bruns"
+      "Bodo Bernsdorf",
+      "Julian Bruns"
     ],
     "title": "Big-Data und Data-Mining im Umfeld städtischer Nutzungskartierung",
     "pdf": "https://amazonas.fzi.de/smw/sites/fzi.de.biggis/images/b/ba/20160512_Big-Data_und_Data-Mining.pdf",
@@ -88,15 +88,16 @@
   {
     "date": "2017/10",
     "authors": [
-      "D. Seebacher",
-      "J. Häußler", 
-	  "M. Hundt", 
-	  "M. Stein", 
-	  "H. Müller", 
-	  "U. Engelke", 
-	  "D. Keim"
+      "Daniel Seebacher",
+      "Johannes Häußler",
+      "Michael Hundt",
+      "Manuel Stein",
+      "Hannes Müller",
+      "Ulrich Engelke",
+      "Daniel Keim"
     ],
     "title": "Visual Analysis of Spatio-Temporal Event Predictions: Investigating the Spread Dynamics of Invasive Species",
+    "pdf": "http://bib.dbvis.de/uploadedFiles/seebacher.pdf",
     "event": {
       "title": "Symposium on Visualization in Data Science (VDS) at IEEE VIS 2017",
       "url": "http://www.visualdatascience.org/2017/index.html",
