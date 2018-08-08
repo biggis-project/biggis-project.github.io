@@ -104,5 +104,22 @@
       "when": "01.10.2017",
       "place": "Phoenix"
     }
+  },
+  {
+    "date": "2018/10",
+    "authors": [
+      "Daniel Seebacher",
+      "Johannes Häußler",
+      "Michael Hundt",
+      "Manuel Stein",
+      "Hannes Müller",
+      "Ulrich Engelke",
+      "Daniel Keim"
+    ],
+    "title": "Visual Analysis of Spatio-Temporal Event Predictions: Investigating the Spread Dynamics of Invasive Species",
+    "event": {
+      "title": "IEEE Transactions on Big Data",
+    }
   }
+  
 ]
