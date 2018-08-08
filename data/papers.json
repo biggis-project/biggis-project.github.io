@@ -106,7 +106,7 @@
     }
   },
   {
-    "date": "2018/10",
+    "date": "2018",
     "authors": [
       "Daniel Seebacher",
       "Johannes Häußler",
@@ -119,6 +119,22 @@
     "title": "Visual Analysis of Spatio-Temporal Event Predictions: Investigating the Spread Dynamics of Invasive Species",
     "event": {
       "title": "IEEE Transactions on Big Data"
+    }
+  },
+  {
+    "date": "2018",
+    "authors": [
+      "Johannes Häußler",
+      "Manuel Stein",
+      "Daniel Seebacher",
+      "H. Janetzko",
+      "T. Schreck",
+      "Daniel Keim"
+    ],
+    "title": "Visual Analysis of Urban Traffic Data based on High-Resolution and High-Dimensional Environmental Sensor Data",
+    "doi": "10.2312/envirvis.20181138",
+    "event": {
+      "title": "Workshop on Visualisation in Environmental Sciences (EnvirVis), The Eurographics Association"
     }
   }
   
